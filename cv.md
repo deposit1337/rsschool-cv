@@ -59,5 +59,5 @@ ___
 
 * #### Russian - native
 * #### English - Advanced C1/C2(according to the online test at [www.efset.org](www.efset.org))
-![mountains](pics\30WP2md47OQ.jpg "Пейзаж с горами")
+![Результат](pics\30WP2md47OQ.jpg "Результат")
 
