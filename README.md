@@ -1,2 +1,1 @@
-# rsschool-cv
-RS School CV
+https://deposit1337.github.io/rsschool-cv/
