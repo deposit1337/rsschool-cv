@@ -1,13 +1,190 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>HTML5 Starter Template</title>
-  <meta name="description" content="Basic html">
-  <meta name="author" content="Pavel Chernykh">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- <script src="js/scripts.js"></script> -->
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Pavel Chernykh" />
+    <meta name="description" content="That's my personal CV, what a surprise" />
+    <title>Pavel Chernykh</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./fonts.css" />
+    <link
+      rel="icon"
+      href="https://lh3.googleusercontent.com/a/AAcHTtf0X3caTVQNdb69ePG15fD3Y1Pp8KwVUu9dsnkTiDdjRvQ=s96-c-rg-br100"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <ul>
+          <li>
+            <a href="#">Skills</a>
+          </li>
+          <li>
+            <a href="#">Code Example</a>
+          </li>
+          <li>
+            <a href="#">Projects</a>
+          </li>
+          <li>
+            <a href="#">Expeience</a>
+          </li>
+          
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <img
+        class="profile"
+        src="https://lh3.googleusercontent.com/a/AAcHTtf0X3caTVQNdb69ePG15fD3Y1Pp8KwVUu9dsnkTiDdjRvQ=s96-c-rg-br100"
+        alt="My profile pic."
+        width="200"
+        height="200"
+      />
+      <h1 class="visually-hidden">
+        Pavel Chernykh - Junior Python Developer Resume
+      </h1>
+      <h4>Hello, I'm Pavel :&#41;</h4>
+      <h2>Junior Python Developer</h2>
+      <ul>
+        <li>
+        <a class="btn" href="mailto:pavel_mrgnlp@mail.ru">
+            <span>Contact me</span>
+        </a>
+        </li>
+        <li>
+            <a class="btn" href="https://t.me/miau1337" class="contact-links" target="_blank">
+                <img src="" alt="Telegram-logo"></a>
+        </li>
+      </ul>
+      <section>
+      <div>
+        <p class="prikols">
+            I am Goal-orientated Python Django Developer, I bring a strong work ethic and commitment to 
+            continuous learning to my professional endeavors.
+        </p>
+        <p class="prikols">With a background in sports, I have 
+            developed the discipline, resilience, and teamwork skills necessary to excel in high-pressure 
+            work environments.</p>
+        <p class="prikols">Open to feedback and eager to contribute as a valuable team member or employee.</p>
+      </div>
+    </section>
+    <section>
+        <p class="subtitle">
+            Just a bit
+        </p>
+        <h2 id="skills" class="title">Learned technologies</h2>
+        <ul class="skills__list">
+            <li class="skills__item">Python</li>
+              <li class="skills__item">HTML</li>
+              <li class="skills__item">CSS</li>
+              <li class="skills__item">DataBases</li>
+              <li class="skills__item">Django</li>
+              <li class="skills__item">Git, GitHub</li>
+        </ul>
+    </section>
+    <section class="code container">
+        <p class="subtitle">Sum basic Python</p>
+        <h2 id="code" class="title">
+            Make a program that filters a list of strings and returns 
+            a list with only your friends name in it
+        </h2>
+        <code class="code-example">
+            def friend(x):
+                friends = []
+                for dude in x:
+                    if len(dude) == 4:
+                    friends.append(dude)
+                return friends
+        </code>
+    </section>
+    <section class="project container">
+        <p class="subtitle">It Ain't Much But It's Honest Work</p>
+        <h2 id="projects" class="title">My projects</h2>
+        <div>
+            <a href="https://github.com/deposit1337/local_library" target="_blank"><img src="" alt="local-library-project" class="project__img"></a>
+        </div>
+        <div class="projects__content">
+            <p class="subtitle projects__subtitle">Python Django, HTML</p>
+            <h3 class="title projects__title">
+              Local library site
+            </h3>
+        <div>
+            <a href="https://28aug2006a.wixsite.com/10-site" target="_blank"><img src="" alt="school-project" class="project__img"></a>
+        </div>
+        <div class="projects__content">
+            <h3 class="title projects__title">
+              Web-page to see fresh school news
+            </h3>
+    </section>
+    <section class="graduation container">
+        <p class="subtitle">Where i gain my knowlege</p>
+        <h2 id="graduation" class="title">Courses</h2>
+        <ul class="graduation__list">
+            <li class="graduation__item">
+                <p class="education__year">November 2022 - April 2023</p>
+                <p class="education__status">Certificate</p>
+                <h4 class="education__degree">Python Development Course</h4>
+                <p class="education__company">
+                  <a href="https://student.skyeng.ru/">
+                    Skysmart Online School
+                  </a>
+                </p>
+            </li>
+            <li class="graduation__item">
+                <p class="education__year">June 2023 - Now</p>
+                <p class="education__status">In progress</p>
+                <h4 class="education__degree">Front-end JavaScript Course</h4>
+                <p class="education__company">
+                  <a href="https://rs.school/">
+                    Rolling Scopes School
+                  </a>
+                </p>
+            </li>
+        </ul>
+        <section class="language container">
+            <p class="subtitle">My linguistic skills</p>
+            <h2 id="language" class="title">Languages</h2>
+        <dl>    
+            <dt class="languages__title">English</dt>
+            <dd class="languages__level">Fluent</dd>
+            <dt class="languages__title">Russian</dt>
+            <dd class="languages__level">Native</dd>
+          </dl>
+        </section>
+    </section>
+    </main>
+    <button
+    id="scrollToTop"
+    class="btn btn--to-top"
+    title="Go to top"
+    type="button">
+    Top
+  </button>
+    <footer class="page-footer">
+      <div class="page-footer__copyright">
+        &copy; Pavel Chernykh</div>
+      <div>
+        <a href="https://rs.school/js/" target="_blank"
+          ><img
+            src="pics\rs_school_js.svg"
+            alt="rsschool-logo"
+            width="100"
+            height="100"
+        /></a>
+      </div>
+      <div class="page-footer__github">
+        <a href="https://github.com/deposit1337" target="_blank"
+          ><img
+            src="pics\github-mark.svg"
+            width="50"
+            height="50"
+            title="GitHub"
+            alt="github-logo"
+        /></a>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
 </html>
